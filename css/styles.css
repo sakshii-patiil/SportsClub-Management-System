@@ -1,0 +1,175 @@
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #4d1fd6;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    padding: 3% 15%;
+}
+
+h1 {
+    size: 3rem;
+    line-height: 3rem;
+    color: #ffffff;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.google {
+    margin: 9% 7% 3% 0%
+}
+
+.apple {
+    margin: 6% 0% 0% 0%;
+}
+
+.title-img {
+    width: 30%;
+    position: absolute;
+    margin-left: 10%;
+}
+
+@media (max-width: 1028px) {
+    .title {
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        width: 40%;
+        transform: rotate(10deg);
+    }
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+#features {
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+.features-block {
+    text-align: center;
+}
+
+.icon {
+    color: #4d1fd6;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #5e2cf4;
+}
+
+#testimonials {
+    padding: 7% 15%;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+}
+
+#testimonials .sec {
+    display: block;
+}
+
+#testimonials img {}
+
+#press {
+    padding: 0% 5% 7% 5%;
+    background-color: #1fd629;
+    text-align: center;
+}
+
+#press img {
+    width: 17%;
+    margin: 0% 1% 0% 1%;
+}
+
+
+/* 
+.pricing-section {
+    padding: 7% 6%;
+}
+
+.pricing-section .pricing-col {
+    margin: 0 1% 0 1%;
+    width: 30%;
+} */
+
+#pricing {
+    text-align: center;
+    padding-top: 4%;
+}
+
+#pricing h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+#pricing h3 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.row {
+    padding: 5% 2% 5% 2%;
+}
+
+.card .card-header,
+.card .card-body {
+    text-align: center;
+}
+
+.card {
+    width: 30%;
+    margin: 0 1% 0 1%;
+}
+
+#cta {
+    width: 100%;
+    background-color: #1fd629;
+    padding: 7% 20%;
+    text-align: center;
+}
+
+#cta h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#cta button {
+    margin: 7% 0% 3% 2%;
+    width: 20%;
+}
+
+#footer {
+    padding: 5%;
+    text-align: center;
+}
+
+#footer .icons {
+    margin: 2% 0.5%;
+}
